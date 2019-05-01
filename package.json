@@ -1,0 +1,15 @@
+{
+  "name": "infotech",
+  "version": "1.0.0",
+  "description": "helpmate final website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server.js"
+  },
+  "author": "Ismael",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
+}
