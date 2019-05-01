@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="body">
 <div class="jumbotron">
     <h1 class="display-4">Join the revolution</h1>
     <p class="lead">Join the thousand of people using a amazing platform</p>
@@ -19,8 +19,8 @@
 
     </p>
 </div>
-    <div class="container">
-        <h1>Main Features</h1>
+    <div class="container" id="features">
+        <h1 class="header">Main Features</h1>
           <div class="row"> 
         <div class="col sm">
             <div class="card" style="width: 20rem;">
@@ -83,9 +83,9 @@
     </div>  
         
     </div>
-<div class="container">
-    <h1>Meet The Team</h1>
-    <p>Meet the people responsible for creating helpmate</p>
+<div class="container" id="team">
+    <h1 class="header">Meet The Team</h1>
+    <p class='header'>Meet the people responsible for creating helpmate</p>
     <div class="row"> 
         <div class="col sm">
             <div class="card" style="width: 20rem;">
@@ -128,7 +128,31 @@ export default {
 }
 </script>
 
-<style>
-
-
+<style scoped>
+.body{
+    background-image: url('../assets/background.svg');
+    background-size: cover
+}
+#highlight{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-color: #343a40;
+    color: aliceblue
+}
+#features{
+     margin-top: 150px;
+    margin-bottom: 150px;
+}
+#team{
+     margin-top: 150px;
+    margin-bottom: 150px;
+}
+.card{
+    margin-bottom: 40px;
+    background-color: #343a40;
+    color: aliceblue
+}
+.header{
+    color: aliceblue
+}
 </style>
